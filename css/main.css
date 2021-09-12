@@ -1,0 +1,134 @@
+/* GLOBAL STYLES */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background: #f0f0f0;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 1000px;
+}
+
+h3 {
+    margin: 0px 0px 10px 20px;
+}
+
+/* HEADER */
+header {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+}
+
+header img {
+    padding-top: 20px;
+    width: 400px;
+    height: 450px;
+    border-radius: 80%;
+}
+
+/* MAIN */
+
+main {
+    overflow: hidden;
+    padding-top: 20px;
+    /* height: 100vh; */
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LINE BETWEEN INFORMATION */
+.line {
+    margin: 20px 0px 20px 0px;
+    width: 80%;
+    height: 3px;
+    background: #000;
+}
+
+.main__information__title {
+    display: flex;
+    margin-left: 0px;
+    align-items: center;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+.main__information__title img {
+    margin: 0px;
+}
+
+.contacts, .about__me, .skills, .education, .language__skill {
+    width: 65%;
+    height: auto;
+    padding: 15px 0px 15px 0px;
+}
+
+.phone__number {
+    font-family: 'Roboto', sans-serif;
+}
+
+.code__example {
+    margin-left: 175px;
+    padding: 20px 0px 20px 0px;
+}
+
+.example__code {
+    width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+
+footer {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.footer__container {
+    background: #999fa8;    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__container a {
+    background: transparent;
+    display: flex;
+    font-weight: bold;
+    margin: 0px;
+    align-items: center;
+    color: #000;
+    text-decoration: none ;
+}
+
+.footer__container img {
+    background: transparent;
+    margin: 0px 20px 0px 20px;
+}
+
+.current__year {
+    background: transparent;
+    font-family: 'Roboto', sans-serif
+}
+
+.logo__rs {
+    background: transparent;
+    width: 100px;
+    height: 100px;
+}
