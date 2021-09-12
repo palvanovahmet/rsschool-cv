@@ -13,3 +13,18 @@ I'm currently studying in BSU faculty RFandCT. I want to get a baggage of knowle
 * HTML/CSS
 * Scss
 * Bootstrap less
+
+## Example of code
+
+```JavaScript
+function findShort(s){
+let a,b;
+let arr = s.split("").sort((a,b) => a.length - b.length);
+return arr[0].length;
+}
+```
+## Education
+Belarusian State University (2018-2022) Faculty of Radiophysics and Computer Technologies (Bachelor)
+
+## English
+Level B1
